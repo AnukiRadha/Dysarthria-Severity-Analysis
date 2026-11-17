@@ -1,0 +1,32 @@
+# Python virtual environments & local runtimes (6+ GB - do not push to git)
+.venv/
+.python_runtime/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Large Raw Dataset & intermediate train caches
+archive/
+dataset
+results/*.npz
+results/dataset_metadata.csv
+
+# Streamlit logs & local configurations
+.streamlit/secrets.toml
+*.log
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
