@@ -14,11 +14,9 @@ __pycache__/
 *.so
 .pytest_cache/
 
-# Large Raw Dataset & intermediate train caches
+# Large Raw Dataset (1.7 GB - models are trained and saved in saved_models/)
 archive/
 dataset
-results/*.npz
-results/dataset_metadata.csv
 
 # Streamlit logs & local configurations
 .streamlit/secrets.toml
